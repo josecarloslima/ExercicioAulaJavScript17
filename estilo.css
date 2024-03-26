@@ -1,13 +1,19 @@
-body {
-    background: rgb(70, 142, 236);
-    font: normal 15pt Arial;
+@charset "UTF-8";
 
+body {
+    background: rgba(70, 142, 236, 0.239);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    color: whitesmoke;
+    color: black;
     text-align: center;
+}
 
+h1 {
+    font-size: 2em;
+    font-variant-caps: all-small-caps;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.139);
 }
 
 section {
@@ -22,9 +28,8 @@ section {
 }
 
 footer {
-    color: whitesmoke;
+    color: black;
     text-align: center;
-    font-style: italic;
-    font-size: 12px;
+    font-size: 0.9em;
 
 }
